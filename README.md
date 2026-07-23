@@ -1,6 +1,8 @@
 # CyberGuardian
 
-🚀 **Live Deployment**: [https://cyber-guardian-phi.vercel.app/](https://cyber-guardian-phi.vercel.app/)
+## Live Deployment
+🚀 **Access the live application here**: [https://cyber-guardian-phi.vercel.app/](https://cyber-guardian-phi.vercel.app/)
+
 CyberGuardian is a modern, full-stack MERN (MongoDB, Express, React, Node.js) application that analyzes password strength in real-time, estimates crack times based on advanced hashing algorithms, and checks passwords against known data breaches.
 
 ## Problem Statement
