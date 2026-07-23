@@ -2,6 +2,9 @@
 
 CyberGuardian is a modern, full-stack MERN (MongoDB, Express, React, Node.js) application that analyzes password strength in real-time, estimates crack times based on advanced hashing algorithms, and checks passwords against known data breaches.
 
+## Problem Statement
+In today's digital landscape, weak and compromised passwords are the leading cause of data breaches. Users often resort to easily guessable passwords containing personal information or reuse the same passwords across multiple platforms. There is a critical need for a proactive security tool that not only calculates the true entropy of a password but also cross-references it against known breaches and contextual data (like names and birthdates) to educate users and enforce robust credential security. CyberGuardian solves this by providing enterprise-grade, real-time password analysis in an intuitive interface.
+
 ## Features
 - **Real-Time Analysis**: Instant entropy calculation and strength scoring.
 - **Breach Detection**: Cross-references passwords with the HaveIBeenPwned database.
@@ -23,3 +26,7 @@ CyberGuardian is a modern, full-stack MERN (MongoDB, Express, React, Node.js) ap
 3. Run the development servers:
    - Frontend: `npm run dev`
    - Backend: `node server.js`
+
+---
+**By- Pratyush Kulshreshtha**  
+Licensed under the **MIT License**.
