@@ -12,7 +12,8 @@ const Navbar = () => {
         const user = JSON.parse(userStr);
         // We import axios dynamically or just use fetch to avoid adding new imports if possible.
         // Actually, let's just use standard fetch for simplicity in this handler.
-        await fetch('http://localhost:5000/api/auth/logout', {
+        const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:5000';
+        await fetch(`${API_URL}/api/auth/logout`, {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify({ userId: user.id })
